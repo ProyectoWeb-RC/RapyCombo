@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contenedor{
+    padding: 10px;
+    vertical-align: middle;
+    margin: auto;
+    width: 80%;
+}
+
+button{
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.contenido{
+    line-height: 1;
+    margin: 10px;
+    display: table-cell;
+}
+
+.contenido :hover{
+    background-color: gray;
+}
+
+.menu{
+    display: inline-block;
+    width: 30px;
+}
+
+.info{
+    padding: 10px;
+    display: inline-block;
+    background: rosybrown;
+    width: 60%;
+}
+
+li{
+    list-style: none;
+}
+
+fieldset{
+    padding: 20px;
+}
+
+.caja{
+    background: #ffffff;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+label{
+    color: beige;
+    margin: 200px;
+}
+ 
+.formulario{
+    background: cadetblue;
+    padding: 50px;
+}
+
+.formulario label{
+    background: black;
+}
+
+.nav-main{
+    background: brown;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-main img{
+    padding-left: 10px;
+    width: 150px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+}
