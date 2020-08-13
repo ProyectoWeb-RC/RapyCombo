@@ -6,7 +6,7 @@ var firebaseConfig = {
   databaseURL: 'https://proyecto-web-b.firebaseio.com',
   projectId: 'proyecto-web-b',
   storageBucket: 'proyecto-web-b.appspot.com',
-  messagingSenderId: '182037651559',
+  messagingSenderId: '1820376 51559',
   appId: '1:182037651559:web:2586ee7dd307c71c9bf4c2',
 };
 // Initialize Firebase

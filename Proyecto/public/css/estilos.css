@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background: url('/img/Proyec.jpg') center;
+  background: url('/public/img/Proyec.jpg') center;
   width: 100%;
   background-size: cover;
   opacity: 78%;
@@ -12,17 +12,17 @@ header {
 
 .banner {
   padding: 10px;
-  color: white;
 }
 .banner p {
   font-size: 20px;
 }
 .servicios {
   padding: 40px;
+  background: url('/public/img/10.jpg');
 }
 .info {
   background: #c7b198;
-  padding: 50px;
+  padding: 30px;
 }
 .mi-flex {
   display: flex;
@@ -41,4 +41,8 @@ header {
   text-align: center;
   background-color: #ffffff;
   border-top: 0.05rem solid #e5e5e5a1;
+}
+
+.login {
+  opacity: 85%;
 }
